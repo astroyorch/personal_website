@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: #000000; /*Previous color #FFFFFF */
 }
 
 /**
@@ -20,7 +20,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  color:#1026E8; /* Previous color #EF6D3D */
 }
 a:focus {
   outline: thin dotted;
@@ -103,7 +103,7 @@ body {
 header, #content, footer { 
   background: rgba(0,0,0,.8); 
   padding:25px;
-  color:#FFFFFF; 
+  color:#000000; /* Previous color #FFFFFF */
 }
 
 /* Menu Links */
@@ -119,14 +119,14 @@ ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
   border-bottom: solid transparent 3px;
-  color:#cfd2da;
+  color:#393c45; /* Previous color #cfd2da */
 }
 ul.main-menu li a:hover {
-  color:#FFFFFF;
+  color:#000000; /* Previous color #FFFFFF */
 }
 ul.main-menu li a.active {
-  color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+  color:#000000; /* Previous color #FFFFFF */
+  border-bottom-color:#1026E8; /* Previous color #EF6D3D */
 }
 
 /* Utility classes */
